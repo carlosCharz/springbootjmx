@@ -23,7 +23,7 @@ public class UserController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
-    public boolean healthCheck() throws Exception {
+    public boolean healthCheck() {
         LOG.info("Health check called from INFO log!");
         LOG.debug("Health check called from DEBUG log!");
         return true;

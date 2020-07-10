@@ -13,5 +13,5 @@ This is a simple spring boot project that uses Tomcat to showcase the usage of J
 
 **1. Health Check. HTTP Method: GET**
 ```
-http://localhost:8080/springbootjmx/
+http://localhost:8080/springbootjmx/users/
 ```
