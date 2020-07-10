@@ -17,7 +17,7 @@
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
 			<!-- Daily rollover -->
-			<fileNamePattern>${catalina.home}/logs/emptyspringrest-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<fileNamePattern>${catalina.home}/logs/springbootjmx-%d{yyyy-MM-dd}.log</fileNamePattern>
 			<!-- Keep 7 days' worth of history -->
 			<maxHistory>7</maxHistory>
 			<!-- logs up to a maximum size of 10GB -->
